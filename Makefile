@@ -2,7 +2,7 @@
 
 CXX=clang++
 
-CXXFLAGS = -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wno-unused-private-field
+CXXFLAGS = -g -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wno-unused-private-field
 
 BINARIES=testSimpleList1 testSimpleList2 testSimpleList3
 
