@@ -22,14 +22,13 @@ SimpleList<T>::SimpleList(){
 
 template<class T>
 SimpleList<T>:: ~SimpleList(){
-    if(numElements!=0){
         if (is_pointer<T>::value){
             for(int i = 0; i < numElements; i++){
                 destroy(elements[i]);
             }
         } 
         delete [] elements;
-    }
+   
 }
 
 template<class T>
